@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random table</title>
+    <script src="Ejercicio5.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            height: 20px;
+            width: 40px;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabla aleatoria</h1>
+    <form >
+        <label for="cant">Ingresa la centidad de números que deseas generar</label><br>
+        <input type="number" name="cant" id="cant" placeholder="Ingresa número">
+        <button type="button" onclick="makeTable()" id="bot">mostra tabla</button><br>
+        <div id="table"></div><br>
+        <button type="button" style="display: none;" id="sumar" onclick="showSum()">mostrar suma</button>
+        <div id="suma"></div>
+    </form>
+
+</body>
+</html>
