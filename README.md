@@ -123,7 +123,9 @@
 - Pruebe este código de arrayGenerator() en la página https://jslint.com/
 - Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
     - ¿Cómo se pueden resolver los warnings?
+Para resolver los warnings en JavaScript, es útil utilizar herramientas como ESLint y JSHint para verificar el código en busca de errores y problemas potenciales. Estas herramientas pueden proporcionar descripciones de los problemas.
     - ¿Se puede modificar la solución usando map? ¿Cómo?
+Es posible utilizar la función map() en ves de for() para hacer una solución más compacta.
 
 #
 
